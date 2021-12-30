@@ -8,9 +8,9 @@ public class Main {
         double interestRate = 9.99;             //Годовая процентная ставка
         System.out.print("Для кредита " + credit + " руб. со ставкой " + interestRate + "% годовых на " + timeCredit1year + "мес. платеж будет ");
         System.out.println(service.calculate(interestRate, timeCredit1year, credit));
-        System.out.print("Для кредита " + credit + " руб. со ставкой " + interestRate + "% годовых на " + timeCredit1year + "мес. платеж будет ");
+        System.out.print("Для кредита " + credit + " руб. со ставкой " + interestRate + "% годовых на " + timeCredit2years + "мес. платеж будет ");
         System.out.println(service.calculate(interestRate, timeCredit2years, credit));
-        System.out.print("Для кредита " + credit + " руб. со ставкой " + interestRate + "% годовых на " + timeCredit1year + "мес. платеж будет ");
+        System.out.print("Для кредита " + credit + " руб. со ставкой " + interestRate + "% годовых на " + timeCredit3years + "мес. платеж будет ");
         System.out.println(service.calculate(interestRate, timeCredit3years, credit));
     }
 }
